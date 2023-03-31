@@ -26,7 +26,7 @@ public class SwaggerConfig {
 					.name("Generation Brasil")
 					.url("https://brazil.generation.org/"))
 				.contact(new Contact()
-					.name("Conteudo Generation")
+					.name("Blog Pessoal")
 					.url("https://github.com/GabiSilvaBelo/Blog-Pessoal")
 					.email("gabybelosp@gmail.com")))
 				.externalDocs(new ExternalDocumentation()
@@ -59,5 +59,6 @@ public class SwaggerConfig {
 		return new ApiResponse().description(message);
 
 	}
+	
 
 }
